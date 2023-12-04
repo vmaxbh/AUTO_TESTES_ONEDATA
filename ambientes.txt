@@ -1,0 +1,57 @@
+One Data - Links
+
+Alessandro Rodrigo Fresneda Perez Junior
+Pertence a Alessandro Rodrigo Fresneda Perez Junior
+
+Última atualização em: 27/out./2023
+6 pessoas visualizaram
+Sonarqube
+	-> https://sonarqube.dasaexp.io/dashboard?id=fonte-pagadora-backend
+
+Jenkins
+	-> http://10.137.69.4:8080/job/one-data/
+
+Azure RSG
+	DEV -> https://portal.azure.com/#@dasa.com.br/resource/subscriptions/0b397135-7b70-4011-9f2b-ac562fb77959/resourceGroups/RSG_ONEDATA_DEV/overview
+
+Front hosts:
+	DEV -> onedata.azr-dev02.dasaexp.io
+	HML -> onedata.azr-hml02.dasaexp.io
+	PRD -> onedata.azr-prd02.dasaexp.io
+
+   HML-> https://onedata.azr-hml02.dasaexp.io/
+
+Fonte Pagadora Hosts:
+	DEV -> fonte-pagadora-backend.azr-dev02.dasaexp.io
+	HML -> fonte-pagadora-backend.azr-hml02.dasaexp.io
+	PRD -> fonte-pagadora-backend.azr-prd02.dasaexp.io
+
+Event Hub
+
+https://portal.azure.com/#@dasa.com.br/resource/subscriptions/0b397135-7b70-4011-9f2b-ac562fb77959/resourceGroups/RSG_DASA_MSG_HML/providers/Microsoft.EventHub/namespaces/dasa-broker-hml-central-us/eventhubs/onedata-fonte-pagadora-backend-dev/overview
+
+
+
+
+
+
+
+
+Comandos para start de Testes separados por esteira:
+
+npx cypress run --spec "C:\Users\MaxwellViana\Auto_Testes_Onedata\cypress\e2e\Testes\2-Esteira_de_Testes\PCS_31_FP_Cadastro.cy.js"
+npx cypress run --spec "C:\Users\MaxwellViana\Auto_Testes_Onedata\cypress\e2e\Testes\2-Esteira_de_Testes\PCS_32_FP_Edicao.cy.js"
+npx cypress run --spec "C:\Users\MaxwellViana\Auto_Testes_Onedata\cypress\e2e\Testes\2-Esteira_de_Testes\PCS_33_FP_Consulta.cy.js"
+npx cypress run --spec "C:\Users\MaxwellViana\Auto_Testes_Onedata\cypress\e2e\Testes\2-Esteira_de_Testes\PCS_40_FP_Historico.cy.js"
+npx cypress run --spec "C:\Users\MaxwellViana\Auto_Testes_Onedata\cypress\e2e\Testes\2-Esteira_de_Testes\PCS_41_PL_Cadastro.cy.js"
+npx cypress run --spec "C:\Users\MaxwellViana\Auto_Testes_Onedata\cypress\e2e\Testes\2-Esteira_de_Testes\PCS_42_PL_Consulta.cy.js"
+
+
+
+Comando para controle e teste de regressão:
+
+npx cypress run
+
+
+
+
